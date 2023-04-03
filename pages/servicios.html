@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Servicios</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../style.css/style.css">
 </head>
-<body>
+<body class="body-servicios">
     <header>
         <nav>
             <a herf="">Inicio</a>
@@ -17,11 +18,10 @@
             <a href="">Trabaja con Nosotros</a>
             <a href="">Contacto</a>
         </nav>
-        <img src="../img/img/mesaroli2.png">
-        <h1><strong>Logística Mesaroli</strong></h1>
-
-        
-        <div class="icons">
+        <div data-aos="fade-right">
+        <img src="../img/img/mesaroli2.png" >
+        </div>
+        <div class="icons icons-servicios">
             <ul>
                 <li><i class="fa-solid fa-warehouse"></i></li>
                 <li><i class="fa-solid fa-truck-front"></i></li>
@@ -30,21 +30,44 @@
             </ul>
         </div>
 
-        <div class="barra">
-            <ul>
-                <li>Logística Integral</li>
-                <li>Transporte</li>
-                <li>Almacenamiento</li>
-                <li>Picking y Repacking</li>
-            </ul>
-        </div>
     </header>
 
+    <div class="scroll-servicios">
+    <div class="hero">
+		<h4>Servicios</h4>
+	</div>
+	<div class="container">
+		<div class="evento">
+			<div class="foto" data-aos="fade-left">
+				<img src="../img/img/logistica2.jpeg"width="300px"height="300px" alt="">
+			</div>
+			<h3 class="fecha">Logística Integral</h3>
+		</div>
+		<div class="evento">
+			<div class="foto" data-aos="fade-right">
+				<img src="../img/img/camion2.jpeg"width="300px"height="300px" alt="">
+			</div>
+			<h3 class="fecha">Transporte</h3>
+		</div>
+		<div class="evento">
+			<div class="foto" data-aos="fade-left">
+				<img src="../img/img/almacenamiento2.jpeg"width="300px"height="300px" alt="">
+			</div>
+			<h3 class="fecha">Almacenamiento</h3>
+		</div>
+		<div class="evento">
+			<div class="foto" data-aos="fade-right">
+				<img src="../img/img/picking.jpeg"width="300px"height="300px" alt="">
+			</div>
+			<h3 class="fecha">Picking y Repacking</h3>
+		</div>
+	</div>
 
 
 
 
- <footer>
+
+ <footer class="footer-servicios">
         <h3>Redes Sociales</h3> 
           
           <ul>
@@ -68,7 +91,13 @@
     
 
     
-</body>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init({
+			duration: 1000,
+			once: true
+		});
+	</script> 
 <script src="https://kit.fontawesome.com/bf3d5cf39c.js" crossorigin="anonymous"></script>    
 </body>
 </html>
