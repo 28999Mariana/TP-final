@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../style.css/style.css">
 </head>
-<body>
+<body class="body-contacto">
     <header>
         <nav>
             <a herf="">Inicio</a>
@@ -18,7 +19,9 @@
             <a href="">Contacto</a>
         </nav>
         <img src="../img/img/mesaroli2.png">
+        <div class="h1-contacto" data-aos="fade-right">
         <h1><strong>Logística Mesaroli</strong></h1>
+        </div>
 
         
         <div class="icons">
@@ -40,10 +43,28 @@
         </div>
     </header>
 
+    <div class="form2-animation"data-aos="fade-down"data-aos-easing="linear"data-aos-duration="1500">
+
+     <section class="form-contact-2">
+        
+            <form action="" class="contact">
+                <label for="nombres">Nombres</label>
+                <input type="text" name="nombres" id="nombres">
+                <label for="correo">Correo</label>
+                <input type="text" name="correo" id="correo">
+                <label for="nombres">Celular</label>
+                <input type="text" name="celular" id="celular">
+                <label for="mensaje">Mensaje</label>
+                <textarea name="mensaje"id="mensaje"></textarea>
+                <input type="submit" value="Enviar">
+            </form>
+     </section>
+    </div>
 
 
 
- <footer>
+
+ <footer class="footer-contacto">
         <h3>Redes Sociales</h3> 
           
           <ul>
@@ -67,7 +88,13 @@
     
 
     
-</body>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init({
+			duration: 1000,
+			once: true
+		});
+	</script>  
 <script src="https://kit.fontawesome.com/bf3d5cf39c.js" crossorigin="anonymous"></script>    
 </body>
 </html>

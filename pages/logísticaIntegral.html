@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Logística Integral</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../style.css/style.css">
 </head>
 
@@ -17,8 +18,12 @@
         <a href="../pages/trabajaConNosotros.html">Trabaja con Nosotros</a>
         <a href="../pages/contacto.html">Contacto</a>
     </nav>
+    <div data-aos="fade-right">
     <img src="../img/img/mesaroli2.png">
+    </div>
+    <div data-aos="fade-left">
     <h1><strong>Logística Mesaroli</strong></h1>
+    </div>
 
     
     <div class="icons">
@@ -40,12 +45,29 @@
     </div>
 </header>
 
-<body>
+<body class="body-logistica">
+    <div class="logistica" data-aos="fade-left">
+    <img src="../img/img/análisis.jpeg" width="600px" height="554px">
+    </div>
+    <main class="logistica-main">
+        <h3>Logística Integral</h3>
+        <p>El mercado actual y la sociedad demandan un servicio completo y un abastecimiento continuo. Para ello, en LOGÍSTICA MESAROLI trabajamos diariamente para ofrecer una logística flexible y ágil.
+
+        Como expertos en logística integral, pensamos que la mejor manera de satisfacer las necesidades del cliente es conocer sus características y así crear soluciones a medida; reduciendo costes y facilitando la gestión de todas las operaciones.
+            
+        Para ofrecer servicios logísticos de calidad disponemos de profesionales cualificados y las herramientas necesarias para la gestión y control de la información. Un trato cercano y personalizado con el cliente, a través de comunicaciones transparentes y accesibles en todo momento, responden a nuestro compromiso con los niveles de calidad acordados.</p>
+        </main>
+    <div class="img-logistica"data-aos="fade-right">
+        <img src="../img/img/logistica.webp" width="1209px" height="348px">
+    </div>
+            
+        
+    </div>
     
     
     
     
-    <footer>
+    <footer class="footer-logistica">
         <h3>Redes Sociales</h3> 
           
           <ul>
@@ -66,7 +88,13 @@
         
         
     </footer>
-</body>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init({
+			duration: 1000,
+			once: true
+		});
+	</script>      
 <script src="https://kit.fontawesome.com/bf3d5cf39c.js" crossorigin="anonymous"></script>    
     
 </body>

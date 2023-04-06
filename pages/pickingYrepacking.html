@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Picking y Repacking</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../style.css/style.css">
 </head>
 <body>
@@ -18,10 +19,13 @@
             <a href="../pages/trabajaConNosotros.html">Trabaja con Nosotros</a>
             <a href="../pages/contacto.html">Contacto</a>
         </nav>
-        <img src="../img/img/mesaroli2.png">
-        <h1><strong>Logística Mesaroli</strong></h1>
+        <div data-aos="fade-right">
+            <img src="../img/img/mesaroli2.png">
+        </div>
+        <div data-aos="fade-left">
+        <h1 class="h1-picking"><strong>Logística Mesaroli</strong></h1>
+        </div>
 
-        
         <div class="icons">
             <ul>
                 <li><i class="fa-solid fa-warehouse"></i></li>
@@ -41,9 +45,33 @@
         </div>
     </header>
 
+    <div class="video-picking">
+        <video src="../video/videos/picking.mp4"autoplay muted loop preload>
+    </div>
 
+    <div data-aos="zoom-in">
+    <main class="main-picking">
+        <section>
+            <p>
+                En <i>Logística Mesaroli</i> ofrecemos soluciones a medida en la preparación de pedidos. Una fuerte inversión en innovación tecnológica de maquinaria y una atención personalizada nos permite garantizar un servicio de picking excelente.<br>
 
-    <footer>
+                La preparación de pedidos se realiza respetando los parámetros fijados en la descripción operativa de cada cliente. Nuestros expertos le asesoran en todo momento en la toma de decisiones  buscando la mejor relación calidad- precio según las necesidades de su empresa.
+            </p>
+
+        </section>
+    </main>
+    </div>
+
+    <div data-aos="zoom-in" data-aos-duration="1000">
+    <div class="desing">
+    </div>
+    </div>
+
+    <div class="packing" data-aos="fade-up" data-aos-duration="1000">
+        
+    </div>
+    
+    <footer class="footer-picking">
         <h3>Redes Sociales</h3> 
           
           <ul>
@@ -64,8 +92,15 @@
         
         
     </footer>
-</body>
-<script src="https://kit.fontawesome.com/bf3d5cf39c.js" crossorigin="anonymous"></script>
-    
-</body>
+
+    <script src="https://kit.fontawesome.com/bf3d5cf39c.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init({
+			duration: 1000,
+			once: true
+		});
+	</script> 
+
+    </body>
 </html>
