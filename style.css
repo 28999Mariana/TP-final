@@ -208,6 +208,11 @@ main{
 
 }
 
+.footer-index{
+    width: 1116px;
+    left:-7px;
+}
+
 h2{
     padding-bottom: 14px;
     padding-top: 40px;
@@ -247,8 +252,6 @@ main section p{
     text-align: center;
     box-shadow: 0 5px 10px #000;
 }
-
-
 .card1{
     top:7%;
     left: 6%;
@@ -264,9 +267,13 @@ main section p{
     text-align: center;
     letter-spacing: 1px;
     line-height: 27px;
-    overflow: hidden;
     backface-visibility: hidden;
-}
+} 
+.card1 .back{
+    overflow: hidden;
+}   
+
+
 
 
 
@@ -735,6 +742,289 @@ input [type='submit']{
     color: grey;
     padding-top:12%;
 
+}
+
+.form-contact-2{
+    background-color: rgba(128, 128, 128, 0.359);
+    width: 700px;
+    height: 600px;
+    position:absolute;
+    z-index: 1;
+    top:1000%;
+    left:22%;
+    box-shadow: 0 5px 10px #000;
+    border-radius: 10px;
+    opacity: 7;
+}
+.form2-animation{
+    position:absolute;
+    top:110%;
+    left:22%;
+}
+.h1-contacto{
+    background-color: white;
+    width: 1200px;
+    margin-left:2%;
+    border-radius: 10px;
+}
+.footer-contacto{
+    position:absolute;
+    top:210%;
+}
+
+
+.contact{
+    padding:8rem;
+    overflow: hidden;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.contact label, .contact input, .contact textarea{
+    display:block;
+    width: 100%;
+    margin-bottom: 8px;
+}
+.contact label{
+    font-weight: 600;
+}
+
+.contact input:not([type='submit']), .contact textarea{
+    border:none;
+    border-bottom: 2px solid rgb(84, 83, 83);
+    margin-bottom: 10px;
+    font-size: 20px;
+    outline: none;
+    color:grey;
+}
+.contact textarea{
+    min-height: 100px;
+}
+
+input [type='submit']{
+    padding: 10px;
+    border:none;
+    background-color: white;
+    color: white;
+    font-size: 25px;
+    cursor:pointer;
+
+}
+.body-contacto{
+    background: url(../img/img/motores.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.logistica-main{
+    width:500px;
+    height: 499px;
+    position:absolute;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.82);
+    opacity: 7;
+    color:rgb(84, 83, 83);
+    padding: 2% 4%;
+    text-align: center;
+    top:110.5%;
+    left:2%;
+    box-shadow: 0 5px 10px #000;
+    border-radius: 10px;
+    line-height: 31px;
+    letter-spacing: 1px;
+    font-weight: 1000;
+}
+.logistica{
+    position:absolute;
+    top: 101.8%;
+    left:45%;
+    z-index: 2;
+    filter: brightness();
+}
+.img-logistica{
+    position:absolute;
+    top:186%;
+    border-radius: 10px;
+    filter: brightness();
+}
+.footer-logistica{
+    width: 1123px;
+    top:263%;
+}
+.body-logistica{
+    background:black;
+}
+.carouselAlmacenamiento{
+    margin-top: 3%;
+}
+.txtAlmacenamiento{
+    width: 537px;
+    height: 437.5px;
+    border-radius: 10px;
+    background-color: rgba(16, 5, 5, 0.359);
+    position: absolute;
+    z-index: 2;
+    top:57%;
+    left:51%;
+    box-shadow: 0 5px 10px #000;
+}
+.h3almacenamiento{
+    padding-bottom: 30px;
+    padding-top: 30px;
+    letter-spacing: 2px;
+}
+.txtAlmacenamiento p{
+    color:white;
+    text-align: center;
+    padding: 32px 40px;
+    line-height: 50px;
+    letter-spacing: 1px;
+}
+.img-Almacenamiento{
+    top: 110%;
+    position:absolute;
+    left:3px;
+}
+
+.img-Almacenamiento{
+    display:inline-block;
+    margin-right: 3px;
+    margin-top: 3px;
+}
+
+.img-Almacenamiento figure{
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 25px rgba(0,0,0,0,50);
+    cursor: pointer;
+}
+
+.img-Almacenamiento figure img{
+    width: 1224px;
+    height: 500px;
+    transition: all 500ms ease-out;
+    box-shadow: 0 5px 10px #000;
+}
+
+.img-Almacenamiento figure .capa{
+    position: absolute;
+    top:22%;
+    width: 1230px;
+    height: 512px;
+    left:2%;
+    background: rgba(128, 128, 128, 0.886);
+    box-shadow: 0 5px 10px #000;
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.img-Almacenamiento figure:hover> .capa{
+    opacity: 1;
+    visibility: visible;
+    z-index: 3;
+}
+
+
+.img-Almacenamiento figure:hover > img{
+    transform: scale(1);
+}
+
+.img-Almacenamiento figure .capa p{
+    color:white;
+    padding: 10%;
+    line-height: 40px;
+    letter-spacing: 1px;
+    transition: all 500ms ease-out;
+}
+.footer-almacenamiento{
+    height: 270px;
+    top:188%;
+}
+.footer-almacenamiento h3{
+    padding-left:3.8%;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.nav-almacenamiento{
+    width: 1200px;
+    height: 80px;
+}
+.icons-almacenamiento{
+    top:40%;
+    height: 70px;
+    padding-bottom: 6.5%;
+    box-shadow: 0 5px 10px #000;
+}
+.nav-almacenamiento a{
+    padding-right: 15px;
+}
+
+.video-picking{
+    position: absolute;
+    top:0%;
+    
+    
+}
+.main-picking{
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.801);
+    width: 700px;
+    height: 280px;
+    z-index: 3;
+    margin-top:31%;
+    
+}
+.main-picking p{
+    border-bottom: 2px solid;
+    color:black;
+    font-weight: 4000;
+    padding: 1px;
+    border-top: 2px solid;
+}
+.h1-picking{
+    background-color: rgb(255, 255, 255);
+    font-weight: 2000;
+    color:black;
+}
+
+.desing{
+    width: 700px;
+    height: 496px;
+    background-color: rgba(242, 17, 17, 0.366);
+    z-index: 2;
+    position:absolute;
+    margin-top:31%;
+    left:38.8%;
+    border-top-left-radius: 200px;
+    border-bottom-left-radius: 200px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0 5px 10px #000;
+    filter:brightness();
+}
+
+
+.packing{
+    width: 120px;
+    height: 120px;
+    background-color: rgba(145, 142, 142, 0.568);
+    border-radius: 50%;
+    border:200px solid rgba(255, 255, 255, 0);
+    position: absolute;
+    top:141%;
+    left:2.1%;
+    filter:brightness();
+}
+
+.footer-picking{
+    top:220%;
+    width: 1140px;
 }
 
 
