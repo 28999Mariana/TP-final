@@ -34,6 +34,10 @@ header nav a{
     text-decoration: none;
 }
 
+header nav a:hover{
+    color:rgba(145, 142, 142, 0.987);
+}
+
 video{
     
     z-index: -1;
@@ -421,10 +425,18 @@ footer ul{
     font-size: 25px;
     color:white;
 }
-
+.fa-linkedin-in:hover{
+    color:rgb(84, 83, 83);
+}
+.fa-facebook:hover{
+    color:rgb(84, 83, 83);
+}
 .fa-facebook{
     font-size: 25px;
     color:white;
+}
+.fa-twitter:hover{
+    color:rgb(84, 83, 83);
 }
 
 .fa-twitter{
@@ -445,11 +457,18 @@ h3{
     color: white;
     font-size: 40px;
 }
+.fa-warehouse:hover{
+    color:rgb(84, 83, 83);
+}
+
 
 .fa-truck-front{
     margin-top: 25px;
     color:white;
     font-size:40px;
+}
+.fa-truck-front:hover{
+    color:rgb(84, 83, 83);
 }
 
 .fa-truck{
@@ -457,17 +476,26 @@ h3{
     color:white;
     font-size:40px ;
 }
+.fa-truck:hover{
+    color:rgb(84, 83, 83);
+}
 
 .fa-dolly{
     margin-top:25px ;
     color:white;
     font-size: 40px;
 }
+.fa-dolly:hover{
+    color:rgb(84, 83, 83);
+}
 
 .fa-boxes-packing{
     margin-top:25px;
     color:white;
     font-size: 40px;
+}
+.fa-boxes-packing:hover{
+    color:rgb(84, 83, 83);
 }
 
 .video-quienesSomos{
@@ -560,6 +588,18 @@ h3{
     position: absolute;
     top:274%;
 }
+.fa-whatsapp{
+    color:white;
+    font-size: 32px;
+    position: absolute;
+    left:86%;
+    top:24%;
+}
+.fa-whatsapp:hover{
+    color: rgb(84, 83, 83);
+}
+
+
 
 .main-trabaja{
     width: 540px;
@@ -649,7 +689,7 @@ input [type='submit']{
 }
 
 .body-servicios{
-    background: url(../img/img/horizonte.jpeg);
+    background: url(../img/img/descarga-Mesaroli.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1035,7 +1075,7 @@ input [type='submit']{
 }
 .img-logistica{
     position:absolute;
-    top:186%;
+    top:180%;
     border-radius: 10px;
     filter: brightness();
 }
@@ -1056,7 +1096,7 @@ input [type='submit']{
     background-color: rgba(16, 5, 5, 0.359);
     position: absolute;
     z-index: 2;
-    top:57%;
+    top:59.4%;
     left:51%;
     box-shadow: 0 5px 10px #000;
 }
@@ -1218,7 +1258,7 @@ input [type='submit']{
 }
 
 .body-transporte{
-    background: url(../img/img/empresa3.jpeg);
+    background: url(../img/img/camiones2-Mesaroli.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
