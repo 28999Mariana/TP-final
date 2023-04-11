@@ -48,7 +48,7 @@ img{
 }
 .img-index{
     position: absolute;
-    top:107.6%;
+    top:107.3%;
     left: 40%;
 }
 
@@ -103,7 +103,7 @@ img{
     font-weight: 400;
     margin-bottom: 200px;
     transition: all 500ms ease-out;
-    margin-top: 50px;
+    padding-top: 18px;
     margin-left: 10%;
     border-bottom: 2px solid white;
 }
@@ -181,6 +181,7 @@ ul{
     font-size: 16px;
     padding: 2%;
     border-radius: 10px;
+    text-decoration: none;
 }
 
 .barra ul li{
@@ -190,10 +191,14 @@ ul{
     font-weight: 550;
     letter-spacing: 1px;
 }
+.barra ul li a{
+    text-decoration: none;
+    color:white;
+}
 
 main{
     width: 400px;
-    height: 350px;
+    height: 340px;
     background-color: rgba(255, 255, 255, 0.82);
     opacity: 7;
     color:rgb(84, 83, 83);
@@ -207,11 +212,78 @@ main{
     line-height: 40px;
 
 }
+.h3-slider{
+    color:white;
+    position: absolute;
+    top:280%;
+    left:33.7%;
+    padding-top: 16px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    width: 300px;
+    height: 20px;
+    background-color: black;
+    letter-spacing: 2px;
+    border-bottom: none;
+}
+
+.slider{
+    width: 100vh;
+    height: auto;
+    margin-top: 117%;
+    margin-left: 24%;
+    margin-bottom: 0;
+    overflow: hidden;
+}
+
+.slider .slide-track{
+    display:flex;
+    margin-left: 50%;
+    animation:scroll 70s linear infinite;
+    -webkit-animation: scroll 70s linear infinite;
+    width: calc(230px *21);
+}
+
+.slide{
+    width: 230px;
+    height: 50px ;
+    background-color: white;
+}
+
+
+.slider .slide{
+    width: 230px;
+    height: 105px ;
+    background-color: white;
+}
+.slide img{
+    width: 500px;
+    padding-top: 25%;
+}
+.slider .slide img{
+    width: 100%;
+}
+
+@keyframes scroll {
+    0%{
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+    100%{
+        -webkit-transform: translateX(calc(-230px * 21));
+        transform: translateX(calc(-230px * 21));
+    }
+}
+
 
 .footer-index{
     width: 1116px;
     left:-7px;
+    top:265%;
 }
+
+
 
 h2{
     padding-bottom: 14px;
@@ -222,12 +294,16 @@ h2{
     letter-spacing: 1px;
 }
 
+main section h2{
+    padding-top: 3%;
+    margin-top: 0.5%;
+    
+}
 main section p{
     color:rgb(50, 48, 48);
     letter-spacing: 1px;
-    border-bottom: 2px solid rgb(50, 48, 48);
     font-weight: 600;
-    padding-top: 10%;
+    padding-top: 8%;
     padding-bottom: 30%;
 }
 
@@ -272,11 +348,6 @@ main section p{
 .card1 .back{
     overflow: hidden;
 }   
-
-
-
-
-
 
 .card:hover .front{
     transform: perspective(300px)rotateY(180deg);
@@ -325,11 +396,6 @@ main section p{
     
 }
 
-
-
-
-
-
 footer{
     width: 1200px;
     height: 150px;
@@ -341,11 +407,8 @@ footer{
     padding: 3%;
     border-radius: 10px;
     margin-left: 2%;
-    box-shadow: 0 5px 10px #000;
-    
+    box-shadow: 0 5px 10px #000; 
 }
-
-
 
 footer ul{
     display:flex;
@@ -417,29 +480,72 @@ h3{
 }
 
 .footer-quienesSomos{
-    top:200%;
+    top:311%;
     left:1%;
     width: 1090px;
     height: 130px;
     padding: 5%;
 }
 .texto-quienesSomos{
-    width:600px;
-    height: 430px;
+    width:450px;
+    height: 290px;
+    position:absolute;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.278);
+    opacity: 7;
+    color:white;
+    padding: 6% 4%;
+    text-align: center;
+    top:120%;
+    left:4%;
+    box-shadow: 0 5px 10px #000;
+    border-radius: 10px;
+    line-height: 38px;
+    letter-spacing: 2px;
+    font-weight: 1000;
+}
+.texto-quienesSomos p{
+    margin-top: -10px;
+}
+
+.mapa-quienes-somos{
+    position:absolute;
+    top:207.5%;
+    left: 46.3%;
+    border-radius: 10px;
+}
+.direccionesSobreNosotros{
+    width: 450px;
+    height: 290px;
     position:absolute;
     z-index: 1;
     background-color: rgba(255, 255, 255, 0.82);
     opacity: 7;
     color:rgb(84, 83, 83);
-    padding: 2% 4%;
+    padding: 6% 4%;
     text-align: center;
-    top:110%;
-    left:21%;
+    top:207%;
+    left:2%;
     box-shadow: 0 5px 10px #000;
     border-radius: 10px;
-    line-height: 31px;
+    line-height: 38px;
     letter-spacing: 1px;
     font-weight: 1000;
+}
+.img-quienesSomos{
+    position:absolute;
+    top:90%;
+    left:3px;
+}
+
+.img-3d{
+    position:absolute;
+    top:235%;
+    left:43%;
+}
+
+.img-3d h2{
+    color:white;
 }
 
 .trabaja-con-nosotros{
@@ -451,23 +557,27 @@ h3{
 .footer-trabaja{
     width: 1150px;
     height: 150px;
+    position: absolute;
+    top:274%;
 }
 
 .main-trabaja{
-    width: 500px;
+    width: 540px;
     height: 400px;
     color:rgb(84, 83, 83);
     position:absolute;
     border-radius: 10px;
-    top:120%;
+    top:94%;
 }
 
 .main-trabaja h3{
     color:rgb(50, 48, 48);
+    border-top:2p solid;
+    padding-top: 8%;
 }
 
 .main-trabaja p{
-    padding-top: 8%;
+    padding-top: 4%;
     line-height: 50px;
     font-weight: 600;
     letter-spacing: 1px;
@@ -479,8 +589,8 @@ h3{
     height: 600px;
     position:absolute;
     z-index: 1;
-    top:120%;
-    left:52%;
+    top:94%;
+    left:55.5%;
     box-shadow: 0 5px 10px #000;
     border-radius: 10px;
     opacity: 7;
@@ -488,6 +598,7 @@ h3{
 
 .header-form{
     width: 100%;
+    height: 120px;
     background-color: rgba(84, 83, 83, 0.644);
     overflow: hidden;
     color: white;
@@ -495,27 +606,24 @@ h3{
 }
 
 header span{
-    font-size: 70px;
+    font-size:60px;
     display: block;
     text-align: center;
-    padding:1%;
+    padding-top: 5%;
     border-radius: 10px;
     opacity:7 ;
 }
 
 .contact{
-    padding:8rem;
     overflow: hidden;
     color: rgb(84, 83, 83);
+    padding: 3%;
 }
 
 .contact label, .contact input, .contact textarea{
     display:block;
     width: 100%;
     margin-bottom: 8px;
-}
-.contact label{
-    font-weight: 600;
 }
 
 .contact input:not([type='submit']), .contact textarea{
@@ -600,7 +708,7 @@ input [type='submit']{
 .scroll-servicios .evento {
 	display: flex;
 	justify-content: space-between;
-	margin-bottom: 200px;
+	margin-bottom: 50px;
 	position: relative;
 }
 
@@ -666,16 +774,90 @@ input [type='submit']{
 	right: initial;
 	left: -50px;
 }
+.content-servicios{
+    position: absolute;
+    top:387%;
+    background: #2c536400;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-left: 5%;
+    border-radius: 10px;
+    width: 1200px;
+    height: 600px;
+}
+
+.slider2{
+    position:relative;
+    width: 250px;
+    height: 250px;
+    transform-style: preserve-3d;
+    animation:rotate 30s linear infinite;
+}
+
+@keyframes rotate{
+    0%{
+        transform: perspective(1000px) rotateY(0deg);
+    }
+    100%{
+        transform:perspective(1000px) rotateY(360deg);
+    }
+}
+
+.slider2 span{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    margin-top: 1px;
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transform: rotateY(calc(var(--i)*60deg))translateZ(350px);
+}
+
+.slider2 span img{
+    position:absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    border-radius: 100px;
+    transition:2s;
+}
+
+.h2-flota{
+    width: 1200px;
+    margin-top: 1%;
+    margin-left: 4%;
+    padding:20px;
+    color:white;
+    background-color: black;
+    text-align: center;
+}
+
+h5{
+    color: white;
+    margin-left: 18%;
+    margin-top: 98%;
+}
+
+.slider2 span:hover img{
+    transform: translateY(-50px)scale(1.2);
+}
+
+
 .footer-servicios{
-    top:505%;
+    top:506%;
 }
 .contenedor-servicios{
     position: absolute;
-    top: 465.5%;
+    top: 473%;
     left:5.5%;
     width: 1200px;
     height: 200px;
-    background-color: rgba(33, 91, 120, 0.573);
+    background-color: rgba(82, 86, 87, 0.406);
     display:flex;
     justify-content: space-evenly;
     text-align: center;
@@ -820,10 +1002,10 @@ input [type='submit']{
 
 .logistica-main{
     width:500px;
-    height: 499px;
+    height: 497px;
     position:absolute;
     z-index: 1;
-    background-color: rgba(255, 255, 255, 0.82);
+    background-color: rgba(150, 145, 145, 0.658);
     opacity: 7;
     color:rgb(84, 83, 83);
     padding: 2% 4%;
@@ -836,9 +1018,17 @@ input [type='submit']{
     letter-spacing: 1px;
     font-weight: 1000;
 }
+
+.logistica-main h3{
+    padding-top: 13%;
+}
+.logistica-main p{
+    color:white;
+    padding-top: 6%;
+}
 .logistica{
     position:absolute;
-    top: 101.8%;
+    top: 102.25%;
     left:45%;
     z-index: 2;
     filter: brightness();
@@ -856,9 +1046,9 @@ input [type='submit']{
 .body-logistica{
     background:black;
 }
-.carouselAlmacenamiento{
-    margin-top: 3%;
-}
+
+
+
 .txtAlmacenamiento{
     width: 537px;
     height: 437.5px;
@@ -873,7 +1063,7 @@ input [type='submit']{
 .h3almacenamiento{
     padding-bottom: 30px;
     padding-top: 30px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 .txtAlmacenamiento p{
     color:white;
@@ -943,7 +1133,7 @@ input [type='submit']{
 }
 .footer-almacenamiento{
     height: 270px;
-    top:188%;
+    top:193%;
 }
 .footer-almacenamiento h3{
     padding-left:3.8%;
@@ -1026,5 +1216,138 @@ input [type='submit']{
     top:220%;
     width: 1140px;
 }
+
+.body-transporte{
+    background: url(../img/img/empresa3.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.main-transporte{
+    top:125%;
+    left:53%;
+    border-radius: 10px;
+}
+
+.section1-transporte{
+    width: 800px;
+    height: 70px;
+    padding-right: 3%;
+    padding-top: 3%;
+    padding-bottom: 1px;
+    background: rgba(128, 128, 128, 0.554);
+    position:absolute;
+    top:134.5%;
+    left:15%;
+    height: 250px;
+    z-index: 1;
+}
+
+.section1-transporte p{
+    position:absoluto;
+    top:220%;
+    color:white;
+    border-top: 2px solid;
+    margin-top: 19px;
+    margin-left: 40px;
+    border-bottom: 2px solid;
+    line-height: 40px;
+    letter-spacing: 2px;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    z-index: 1;
+}
+
+.section2-transporte{
+    position: absolute;
+    top:110%;
+    left:5px;
+    z-index: -1;
+
+}
+
+.h3-transporte{
+    width: 700px;
+    height: 10px;
+    font-size: 25px;
+    background-color: white;
+    position:absolute;
+    border:2px solid black;
+    top:110%;
+    left: 20%;
+    padding-bottom: 40px;
+    padding-top: 30px;
+    color:black;
+    letter-spacing: 1px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.certificados{
+    display:flex;
+    justify-content: center;
+    margin-left: 22%;
+    margin-top: 15%;
+}
+.certificacion{
+    position:absolute;
+    top:191%;
+    margin-left: 19%;
+}
+
+.certificacion h2{
+    position: absolute;
+    top:2px;
+    padding-bottom: 45px;
+    color: black;
+    width: 700px;
+    height: 20px;
+    background-color: white;
+    margin-left: 4%;
+    text-align: center;
+    
+}
+
+.footer-transporte{
+    top:238.5%;
+}
+
+.carousel, .carousel-inner > .carousel-item > img { /* Modificación tamaño carousel bootstrap */
+    height: 605px;
+    width: 671px;
+    margin-top: -2px;
+    margin-left: 7.5px;
+  }
+
+.img-trabaja{
+    position:absolute;
+    top: 178%;
+}
+
+.img-trabaja img{
+    filter:brightness();
+}
+
+.irAInicio{
+    position:absolute;
+    top:260%;
+    left:3%;
+    color:white;
+}
+.fa-angles-up{
+    color:white;
+    font-size: 20px;
+}
+.irAInicio .quienes-angles-up{
+    position: absolute;
+    top:390%;
+}
+
+
+    
+
 
 
