@@ -226,11 +226,11 @@ main{
 main p{
     font-size: 16px;
 }
-.h3-slider{
+.h4-slider{
     color:white;
     position: absolute;
-    top:280%;
-    left:33.7%;
+    top:284%;
+    left:35.7%;
     padding-top: 16px;
     padding-left: 30px;
     padding-right: 30px;
@@ -294,7 +294,7 @@ main p{
 .footer-index{
     width: 1116px;
     left:-7px;
-    top:256%;
+    top:259%;
 }
 
 .footer-index p{
@@ -342,7 +342,7 @@ main section p{
 .card{
     position: absolute;
     z-index: 1;
-    top:194%;
+    top:196%;
     width: 1200px;
     height: 380px;
     background-color:rgba(255, 255, 255, 0.82) ;
@@ -354,7 +354,7 @@ main section p{
 }
 .card1{
     top:7%;
-    left: 6%;
+    left: 5%;
     position: absolute;
     z-index: 1;
     width: 300px;
@@ -382,13 +382,15 @@ main section p{
     
 .card2{
     top:7%;
-    left: 37%;
+    left: 36%;
     position:absolute;
     z-index: 1;
     width: 300px;
     height: 300px;
     background:grey;
     padding-top: 2%;
+    padding-left: 1%;
+    padding-right: 1%;
     color:white;
     box-shadow: 0 5px 10px #000;
     overflow: hidden;
@@ -532,9 +534,9 @@ h3{
 }
 
 .footer-quienesSomos{
-    top:311%;
+    top:327%;
     left:1%;
-    width: 1090px;
+    width: 1040px;
     height: 130px;
     padding: 5%;
 }
@@ -665,6 +667,11 @@ h3{
     box-shadow: 0 5px 10px #000;
     border-radius: 10px;
     opacity: 7;
+    font-size: 16px;
+}
+
+.form-contact label{
+    font-size: 16px;
 }
 
 .header-form{
@@ -853,7 +860,7 @@ input [type='submit']{
 }
 .content-servicios{
     position: absolute;
-    top:370%;
+    top:375%;
     background: #2c536400;
     display:flex;
     align-items: center;
@@ -927,11 +934,11 @@ h5{
 
 
 .footer-servicios{
-    top:489.5%;
+    top:497%;
 }
 .contenedor-servicios{
     position: absolute;
-    top: 458%;
+    top: 462%;
     left:5%;
     width: 1200px;
     height: 200px;
@@ -943,6 +950,11 @@ h5{
     border-radius: 10px;
     
 }
+
+.contenedor-servicios p{
+    font-size: 16px;
+}
+
 .bloque1{
     width:200px ;
     height:150px ;
@@ -1019,6 +1031,7 @@ h5{
 
 .form-contact-2 label{
     color:white;
+    font-size: 16px;
 }
 .form2-animation{
     position:absolute;
@@ -1107,6 +1120,7 @@ input [type='submit']{
 .logistica-main p{
     color:white;
     padding-top: 6%;
+    letter-spacing: 1px;
 }
 .logistica{
     position:absolute;
@@ -1117,7 +1131,7 @@ input [type='submit']{
 }
 .img-logistica{
     position:absolute;
-    top:180%;
+    top: 186%;
     border-radius: 10px;
     filter: brightness();
 }
@@ -1155,7 +1169,7 @@ input [type='submit']{
     letter-spacing: 1px;
 }
 .img-Almacenamiento{
-    top: 110%;
+    top: 114%;
     position:absolute;
     left:3px;
 }
@@ -1215,7 +1229,7 @@ input [type='submit']{
 }
 .footer-almacenamiento{
     height: 270px;
-    top:193%;
+    top:196%;
 }
 .footer-almacenamiento h3{
     padding-left:3.8%;
@@ -1272,7 +1286,7 @@ input [type='submit']{
     z-index: 2;
     position:absolute;
     margin-top:31%;
-    left:38.8%;
+    left:38.2%;
     border-top-left-radius: 200px;
     border-bottom-left-radius: 200px;
     border-top-right-radius: 10px;
@@ -1295,8 +1309,8 @@ input [type='submit']{
 }
 
 .footer-picking{
-    top:220%;
-    width: 1140px;
+    top:223%;
+    width: 1116px;
 }
 
 .body-transporte{
@@ -1394,11 +1408,12 @@ input [type='submit']{
 }
 
 .footer-transporte{
-    top:238.5%;
+    top:241%;
+    width: 1116px;
 }
 
 .carousel, .carousel-inner > .carousel-item > img { /* Modificación tamaño carousel bootstrap */
-    height: 605px;
+    height: 608px;
     width: 671px;
     margin-top: -2px;
     margin-left: 7.5px;
