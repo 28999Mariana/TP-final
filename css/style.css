@@ -121,12 +121,13 @@ img{
     line-height: 1.5;
     margin:0;
     padding-left: 1px;
+    border-bottom: 2p solid white;
+    padding-bottom: 10%;
 }
 
 .img-index figure .capa p{
     color:white;
-    border-top: 2px solid white;
-    padding: 8% 10%;
+    padding: 16% 10%;
     line-height: 40px;
     letter-spacing: 1px;
     font-size: 16px;
@@ -331,12 +332,15 @@ main section p{
     font-size: 16px;
 }
 
-.card h3{
+.card h4{
     color:white;
+    border-bottom: 2px solid white;
+    padding-bottom: 8%;
+    padding-top: 2%;
 }
 
 .card p{
-    padding-top: 8%;
+    padding-top: 13%;
     font-size: 16px;
 }
 
