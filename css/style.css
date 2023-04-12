@@ -45,6 +45,10 @@ video{
     filter: brightness();
 }
 
+p{
+    font-size: 16px;
+}
+
 img{
     padding-top: 9%;
     padding-bottom: 3px;
@@ -52,8 +56,8 @@ img{
 }
 .img-index{
     position: absolute;
-    top:103%;
-    left: 38%;
+    top:107%;
+    left: 41.2%;
 }
 
 .img-index{
@@ -99,7 +103,7 @@ img{
 }
 
 .img-index figure:hover > img{
-    transform: scale(1.3);
+    transform: scale(1);
 }
 
 .img-index figure .capa h2{
@@ -124,6 +128,7 @@ img{
     padding: 8% 10%;
     line-height: 40px;
     letter-spacing: 1px;
+    font-size: 16px;
 }
 
 h1{
@@ -150,7 +155,7 @@ h1{
     height: 100px;
     background-color: rgba(128, 128, 128, 0.779);
     opacity:6;
-    top:73%;
+    top:76%;
     left:2%;
     z-index: 1;
     position:absolute;
@@ -175,7 +180,7 @@ ul{
     background-color: rgba(128, 128, 128, 0.779);
     z-index: 1;
     position: absolute;
-    top:91%;
+    top:94%;
     left:2%;
     list-style: none;
     display:flex;
@@ -214,7 +219,12 @@ main{
     left:2%;
     box-shadow: 0 5px 10px #000;
     line-height: 40px;
+    font-size: 16px;
 
+}
+
+main p{
+    font-size: 16px;
 }
 .h3-slider{
     color:white;
@@ -235,7 +245,7 @@ main{
 .slider{
     width: 100vh;
     height: auto;
-    margin-top: 117%;
+    margin-top: 120%;
     margin-left: 24%;
     margin-bottom: 0;
     overflow: hidden;
@@ -284,11 +294,12 @@ main{
 .footer-index{
     width: 1116px;
     left:-7px;
-    top:253%;
+    top:256%;
 }
 
 .footer-index p{
     letter-spacing: 1px;
+    font-size: 16px;
 }
 .footer-index ul li{
     margin-left: -25px;
@@ -316,6 +327,7 @@ main section p{
     font-weight: 600;
     padding-top: 8%;
     padding-bottom: 30%;
+    font-size: 16px;
 }
 
 .card h3{
@@ -324,12 +336,13 @@ main section p{
 
 .card p{
     padding-top: 8%;
+    font-size: 16px;
 }
 
 .card{
     position: absolute;
     z-index: 1;
-    top:191%;
+    top:194%;
     width: 1200px;
     height: 380px;
     background-color:rgba(255, 255, 255, 0.82) ;
@@ -421,6 +434,7 @@ footer{
     border-radius: 10px;
     margin-left: 2%;
     box-shadow: 0 5px 10px #000; 
+    font-size: 16px;
 }
 
 footer p{
@@ -529,7 +543,7 @@ h3{
     height: 290px;
     position:absolute;
     z-index: 1;
-    background-color: rgba(255, 255, 255, 0.278);
+    background-color: rgba(48, 47, 47, 0.654);
     opacity: 7;
     color:white;
     padding: 6% 4%;
@@ -572,7 +586,7 @@ h3{
 }
 .img-quienesSomos{
     position:absolute;
-    top:90%;
+    top:92.5%;
     left:3px;
 }
 
@@ -675,6 +689,10 @@ header span{
     overflow: hidden;
     color: rgb(84, 83, 83);
     padding: 3%;
+}
+
+.contact label{
+    color:rgb(84, 83, 83);
 }
 
 .contact label, .contact input, .contact textarea{
@@ -841,7 +859,7 @@ input [type='submit']{
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    margin-left: 1px;
+    margin-left: 20px;
     border-radius: 10px;
     width: 1200px;
     height: 600px;
@@ -993,10 +1011,14 @@ h5{
     position:absolute;
     z-index: 1;
     top:1000%;
-    left:22%;
+    left:32%;
     box-shadow: 0 5px 10px #000;
     border-radius: 10px;
     opacity: 7;
+}
+
+.form-contact-2 label{
+    color:white;
 }
 .form2-animation{
     position:absolute;
