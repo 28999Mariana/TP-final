@@ -11,11 +11,11 @@ nav{
     z-index: 1;
     position: absolute;
     margin-top: 1%;
-    left:2%;
+    left:2.2%;
     width: 800px;
     height: 60px;
     gap: 60px;
-    font-size: 16px;
+    font-size: 18px;
     font-family: 'Roboto', sans-serif;
     background-color: black;
     border-radius: 10px;
@@ -127,7 +127,7 @@ img{
 }
 
 h1{
-    padding-left: 43%;
+    padding-left: 38%;
     padding-top: 1%;
     padding-bottom: 1%;
     letter-spacing: 2px;
@@ -146,11 +146,11 @@ h1{
 }
 
 .icons{
-    width: 1200px;
+    width: 1195px;
     height: 100px;
     background-color: rgba(128, 128, 128, 0.779);
     opacity:6;
-    top:75%;
+    top:73%;
     left:2%;
     z-index: 1;
     position:absolute;
@@ -170,19 +170,19 @@ ul{
 }
 
 .barra{
-    width: 1146px;
+    width: 1140px;
     height: 28px;
     background-color: rgba(128, 128, 128, 0.779);
     z-index: 1;
     position: absolute;
-    top:93%;
+    top:91%;
     left:2%;
     list-style: none;
     display:flex;
     justify-content: space-around;
     text-align: center;
     color:white;
-    font-size: 16px;
+    font-size: 18px;
     padding: 2%;
     border-radius: 10px;
     text-decoration: none;
@@ -284,7 +284,10 @@ main{
 .footer-index{
     width: 1116px;
     left:-7px;
-    top:265%;
+    top:253%;
+}
+.footer-index ul li{
+    margin-left: -25px;
 }
 
 
@@ -322,7 +325,7 @@ main section p{
 .card{
     position: absolute;
     z-index: 1;
-    top:197%;
+    top:191%;
     width: 1200px;
     height: 380px;
     background-color:rgba(255, 255, 255, 0.82) ;
@@ -397,6 +400,8 @@ main section p{
     text-align: center;
     letter-spacing: 1px;
     line-height: 27px;
+    padding-left: 1%;
+    padding-right: 1%;
     
 }
 
@@ -405,7 +410,7 @@ footer{
     height: 150px;
     background-color: rgba(128, 128, 128, 0.779);
     color: white;
-    top:260%;
+    top:258%;
     z-index: 1;
     position: absolute;
     padding: 3%;
@@ -1381,9 +1386,9 @@ input [type='submit']{
     color:white;
     font-size: 20px;
 }
-.irAInicio .quienes-angles-up{
+.irAInicio .index-angles-up{
     position: absolute;
-    top:390%;
+    top:381%;
 }
 
 
