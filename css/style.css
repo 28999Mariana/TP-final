@@ -125,6 +125,7 @@ img{
 
 .img-index figure .capa p{
     color:white;
+    border-top: 2px solid white;
     padding: 8% 10%;
     line-height: 40px;
     letter-spacing: 1px;
