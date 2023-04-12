@@ -98,7 +98,7 @@ img{
     visibility: visible;
 }
 
-.img-index figure:hover > .capa h2{
+.img-index figure:hover > .capa h4{
     margin-top: 60px;
 }
 
@@ -106,7 +106,7 @@ img{
     transform: scale(1);
 }
 
-.img-index figure .capa h2{
+.img-index figure .capa h4{
     color:#fff;
     font-weight: 400;
     margin-bottom: 200px;
@@ -116,7 +116,7 @@ img{
     border-bottom: 2px solid white;
 }
 
-.img-index figure .capa h2{
+.img-index figure .capa h4{
     color:#fff;
     line-height: 1.5;
     margin:0;
@@ -294,7 +294,7 @@ main p{
 .footer-index{
     width: 1116px;
     left:-7px;
-    top:259%;
+    top:261%;
 }
 
 .footer-index p{
