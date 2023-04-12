@@ -15,7 +15,7 @@ nav{
     width: 800px;
     height: 60px;
     gap: 60px;
-    font-size: 18px;
+    font-size: 16px;
     font-family: 'Roboto', sans-serif;
     background-color: black;
     border-radius: 10px;
@@ -182,7 +182,7 @@ ul{
     justify-content: space-around;
     text-align: center;
     color:white;
-    font-size: 18px;
+    font-size: 16px;
     padding: 2%;
     border-radius: 10px;
     text-decoration: none;
@@ -285,6 +285,10 @@ main{
     width: 1116px;
     left:-7px;
     top:253%;
+}
+
+.footer-index p{
+    letter-spacing: 1px;
 }
 .footer-index ul li{
     margin-left: -25px;
@@ -419,6 +423,10 @@ footer{
     box-shadow: 0 5px 10px #000; 
 }
 
+footer p{
+    letter-spacing: 2px;
+}
+
 footer ul{
     display:flex;
     justify-content: space-around;
@@ -503,13 +511,10 @@ h3{
     color:rgb(84, 83, 83);
 }
 
-.video-quienesSomos{
+.video-quienesSomos video{
     position:fixed;
     z-index: -1;
-    width: 1280px;
-    height: 700px;
-    top:10%;
-    left:1%;
+    filter:brightness()
 }
 
 .footer-quienesSomos{
@@ -587,6 +592,13 @@ h3{
     position:absolute;
     border-radius: 10px;
 }
+
+.trabaja-con-nosotros video{
+    z-index: -1;
+    position: fixed;
+    filter:brightness();
+}
+
 .footer-trabaja{
     width: 1150px;
     height: 150px;
@@ -709,7 +721,9 @@ input [type='submit']{
 
 .scroll-servicios{
     margin-top: 38%;
+    left: -10px;
 }
+
 
 .scroll-servicios .hero {
 	display: flex;
@@ -717,7 +731,7 @@ input [type='submit']{
 	justify-content: center;
 	width: 1000px;
     height: 60px;
-    left:13.5%;
+    left:9.4%;
     top:90%;
     position:absolute;
     border-radius: 10px;
@@ -733,7 +747,7 @@ input [type='submit']{
 .scroll-servicios .container {
 	width: 90%;
 	max-width: 1200px;
-	margin: 100px auto;
+	margin-left: 10.7px;
 	display: flex;
 	flex-direction: column;
 	position: relative;
@@ -821,13 +835,13 @@ input [type='submit']{
 }
 .content-servicios{
     position: absolute;
-    top:387%;
+    top:370%;
     background: #2c536400;
     display:flex;
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    margin-left: 5%;
+    margin-left: 1px;
     border-radius: 10px;
     width: 1200px;
     height: 600px;
@@ -874,12 +888,13 @@ input [type='submit']{
 
 .h2-flota{
     width: 1200px;
-    margin-top: 1%;
-    margin-left: 4%;
+    margin-top: 2px;
+    margin-left: 2px;
     padding:20px;
     color:white;
     background-color: black;
     text-align: center;
+    letter-spacing: 2px;
 }
 
 h5{
@@ -894,12 +909,12 @@ h5{
 
 
 .footer-servicios{
-    top:506%;
+    top:489.5%;
 }
 .contenedor-servicios{
     position: absolute;
-    top: 473%;
-    left:5.5%;
+    top: 458%;
+    left:5%;
     width: 1200px;
     height: 200px;
     background-color: rgba(82, 86, 87, 0.406);
@@ -1201,11 +1216,11 @@ input [type='submit']{
 }
 
 .video-picking{
-    position: absolute;
-    top:0%;
-    
-    
+    z-index: -1;
+    position: fixed;
+    filter:brightness();
 }
+
 .main-picking{
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.801);
