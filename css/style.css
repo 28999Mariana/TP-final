@@ -248,7 +248,7 @@ main p{
 .slider{
     width: 100vh;
     height: auto;
-    margin-top: 129%;
+    margin-top: 127%;
     margin-left: 21.65%;
     margin-bottom: 0;
     overflow: hidden;
@@ -571,7 +571,7 @@ h3{
 
 .mapa-quienes-somos{
     position:absolute;
-    top:210.3%;
+    top:211.2%;
     left: 46.3%;
     border-radius: 10px;
 }
@@ -585,7 +585,7 @@ h3{
     color:rgb(84, 83, 83);
     padding: 6% 4%;
     text-align: center;
-    top:210%;
+    top:211%;
     left:2%;
     box-shadow: 0 5px 10px #000;
     border-radius: 10px;
@@ -597,6 +597,7 @@ h3{
 .direccionesSobreNosotros h2{
     padding-bottom: 6%;
     padding-top: 5.1%;
+    font-size: 23px ;
 }
 .img-quienesSomos{
     position:absolute;
@@ -634,7 +635,7 @@ h3{
 }
 
 .footer-trabaja{
-    width: 1150px;
+    width: 1117px;
     height: 150px;
     position: absolute;
     top:274%;
@@ -942,6 +943,7 @@ input [type='submit']{
     background-color: black;
     text-align: center;
     letter-spacing: 2px;
+    font-size: 22px;
 }
 
 h5{
@@ -1131,7 +1133,7 @@ input [type='submit']{
     color:rgb(84, 83, 83);
     padding: 2% 4%;
     text-align: center;
-    top:110.6%;
+    top:110.7%;
     left:2%;
     box-shadow: 0 5px 10px #000;
     border-radius: 10px;
@@ -1169,6 +1171,12 @@ input [type='submit']{
     background:black;
 }
 
+.carousel, .carousel-inner > .carousel-item > img { /* Modificación tamaño carousel bootstrap */
+    height: 608px;
+    width: 669px;
+    margin-top: -2px;
+    margin-left: 7.5px;
+  }
 
 
 .txtAlmacenamiento{
@@ -1178,7 +1186,7 @@ input [type='submit']{
     background-color: rgba(16, 5, 5, 0.359);
     position: absolute;
     z-index: 2;
-    top:59.8%;
+    top:59.7%;
     left:50%;
     box-shadow: 0 5px 10px #000;
 }
@@ -1197,7 +1205,7 @@ input [type='submit']{
     font-size: 17px;
 }
 .img-Almacenamiento{
-    top: 114%;
+    top: 120%;
     position:absolute;
     left:3px;
 }
@@ -1265,7 +1273,7 @@ input [type='submit']{
 }
 .footer-almacenamiento{
     height: 270px;
-    top:196%;
+    top:201%;
 }
 .footer-almacenamiento h3{
     padding-left:3.8%;
@@ -1278,7 +1286,7 @@ input [type='submit']{
     height: 80px;
 }
 .icons-almacenamiento{
-    top:40%;
+    top:45%;
     height: 70px;
     padding-bottom: 6.5%;
     box-shadow: 0 5px 10px #000;
@@ -1432,8 +1440,8 @@ input [type='submit']{
 
 .certificacion h3{
     position: absolute;
-    top:4px;
-    padding:30px;
+    top:2px;
+    padding:26px;
     border-top: 2px solid;
     color: white;
     width: 700px;
@@ -1441,6 +1449,7 @@ input [type='submit']{
     background-color:  rgba(76, 71, 71, 0.397);
     margin-left: -2%;
     text-align: center;
+    font-size: 22px;
     
 }
 
