@@ -1186,7 +1186,7 @@ input [type='submit']{
     background-color: rgba(16, 5, 5, 0.359);
     position: absolute;
     z-index: 2;
-    top:64%;
+    top:63.5%;
     left:50%;
     box-shadow: 0 5px 10px #000;
 }
@@ -1272,7 +1272,7 @@ input [type='submit']{
     font-size: 17px;
 }
 .footer-almacenamiento{
-    height: 290px;
+    height: 300px;
     top:203%;
 }
 .footer-almacenamiento h3{
