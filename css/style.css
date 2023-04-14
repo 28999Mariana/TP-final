@@ -231,14 +231,14 @@ main p{
 .h4-slider{
     color:white;
     position: absolute;
-    top:286%;
-    left:35.7%;
-    padding-top: 16px;
+    top:289%;
+    left:25.4%;
+    padding-top: 17px;
     padding-left: 30px;
     padding-right: 30px;
     padding-bottom: 1.5%;
     text-align: center;
-    width: 300px;
+    width: 500px;
     height: 20px;
     background-color: black;
     letter-spacing: 2px;
@@ -248,8 +248,8 @@ main p{
 .slider{
     width: 100vh;
     height: auto;
-    margin-top: 123%;
-    margin-left: 23%;
+    margin-top: 129%;
+    margin-left: 21.65%;
     margin-bottom: 0;
     overflow: hidden;
 }
@@ -295,8 +295,8 @@ main p{
 
 
 .footer-index{
-    width: 1116px;
-    left:-7px;
+    width: 1111px;
+    left:-1px;
     top:261%;
 }
 
@@ -348,19 +348,20 @@ main section p{
 .card{
     position: absolute;
     z-index: 1;
-    top:196%;
-    width: 1200px;
+    top:198%;
+    width: 1192px;
     height: 380px;
     background-color:rgba(255, 255, 255, 0.82) ;
     opacity: 4;
     display:flex;
-    margin: 20px;;
+    left:2%;
+    
     text-align: center;
     box-shadow: 0 5px 10px #000;
 }
 .card1{
     top:7%;
-    left: 5%;
+    left: 4%;
     position: absolute;
     z-index: 1;
     width: 300px;
@@ -388,7 +389,7 @@ main section p{
     
 .card2{
     top:7%;
-    left: 36%;
+    left: 35.5%;
     position:absolute;
     z-index: 1;
     width: 300px;
@@ -540,9 +541,9 @@ h3{
 }
 
 .footer-quienesSomos{
-    top:327%;
-    left:1%;
-    width: 1040px;
+    top:335%;
+    left:2px;
+    width: 1053px;
     height: 130px;
     padding: 5%;
 }
@@ -570,7 +571,7 @@ h3{
 
 .mapa-quienes-somos{
     position:absolute;
-    top:207.5%;
+    top:210.3%;
     left: 46.3%;
     border-radius: 10px;
 }
@@ -584,7 +585,7 @@ h3{
     color:rgb(84, 83, 83);
     padding: 6% 4%;
     text-align: center;
-    top:207%;
+    top:210%;
     left:2%;
     box-shadow: 0 5px 10px #000;
     border-radius: 10px;
@@ -611,6 +612,12 @@ h3{
 
 .img-3d h2{
     color:white;
+}
+.header-trabaja img{
+    margin-top: 1%;
+}
+.h1-trabaja{
+    margin-top: .7%;
 }
 
 .trabaja-con-nosotros{
@@ -669,12 +676,12 @@ h3{
 
 .form-contact{
     background-color: white;
-    width: 550px;
+    width: 543px;
     height: 600px;
     position:absolute;
     z-index: 1;
     top:94%;
-    left:55.5%;
+    left:54%;
     box-shadow: 0 5px 10px #000;
     border-radius: 10px;
     opacity: 7;
@@ -708,10 +715,13 @@ header span{
     overflow: hidden;
     color: rgb(84, 83, 83);
     padding-top: 10%;
+    width: 400px;
+    padding-left: 13.3%;
 }
 
 .contact label{
     color:rgb(84, 83, 83);
+    
 }
 
 .contact label, .contact input, .contact textarea{
@@ -743,7 +753,7 @@ input [type='submit']{
 }
 
 .body-servicios{
-    background: url(../img/img/horizonte.jpeg);
+    background: url(../img/horizonte.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -872,7 +882,7 @@ input [type='submit']{
 }
 .content-servicios{
     position: absolute;
-    top:375%;
+    top:377%;
     background: #2c536400;
     display:flex;
     align-items: center;
@@ -924,9 +934,9 @@ input [type='submit']{
 }
 
 .h2-flota{
-    width: 1200px;
+    width: 1100px;
     margin-top: 2px;
-    margin-left: 2px;
+    margin-left: 2%;
     padding:20px;
     color:white;
     background-color: black;
@@ -946,13 +956,14 @@ h5{
 
 
 .footer-servicios{
-    top:497%;
+    top:499%;
+    width: 1111px;
 }
 .contenedor-servicios{
     position: absolute;
-    top: 462%;
-    left:5%;
-    width: 1200px;
+    top: 464%;
+    left:2%;
+    width: 1194px;
     height: 200px;
     background-color: rgba(82, 86, 87, 0.406);
     display:flex;
@@ -1034,10 +1045,9 @@ h5{
     background-color: rgba(128, 128, 128, 0.359);
     width: 700px;
     height: 600px;
-    position:absolute;
     z-index: 1;
-    top:1000%;
-    left:32%;
+    margin-left: -24px;
+    
     box-shadow: 0 5px 10px #000;
     border-radius: 10px;
     opacity: 7;
@@ -1045,7 +1055,7 @@ h5{
 
 .form-contact-2 label{
     color:white;
-    font-size: 16px;
+    font-size: 17px;
 }
 .form2-animation{
     position:absolute;
@@ -1060,7 +1070,9 @@ h5{
 }
 .footer-contacto{
     position:absolute;
-    top:210%;
+    top:215%;
+    width: 1111px;
+    height: 150px;
 }
 
 
@@ -1102,7 +1114,7 @@ input [type='submit']{
 
 }
 .body-contacto{
-    background: url(../img/img/motores.jpeg);
+    background: url(../img/motores.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1119,7 +1131,7 @@ input [type='submit']{
     color:rgb(84, 83, 83);
     padding: 2% 4%;
     text-align: center;
-    top:110.5%;
+    top:110.6%;
     left:2%;
     box-shadow: 0 5px 10px #000;
     border-radius: 10px;
@@ -1160,20 +1172,21 @@ input [type='submit']{
 
 
 .txtAlmacenamiento{
-    width: 537px;
+    width: 545px;
     height: 437.5px;
     border-radius: 10px;
     background-color: rgba(16, 5, 5, 0.359);
     position: absolute;
     z-index: 2;
-    top:59.4%;
-    left:51%;
+    top:59.8%;
+    left:50%;
     box-shadow: 0 5px 10px #000;
 }
 .h3almacenamiento{
     padding-bottom: 30px;
     padding-top: 30px;
     letter-spacing: 1px;
+    font-size: 24px;
 }
 .txtAlmacenamiento p{
     color:white;
@@ -1181,6 +1194,7 @@ input [type='submit']{
     padding: 32px 40px;
     line-height: 50px;
     letter-spacing: 1px;
+    font-size: 17px;
 }
 .img-Almacenamiento{
     top: 114%;
@@ -1236,10 +1250,18 @@ input [type='submit']{
 
 .img-Almacenamiento figure .capa p{
     color:white;
-    padding: 10%;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    padding-right: 35px;
+    
+    margin-top: 10%;
+    padding-top:10px;
+    text-align: center;
+    padding-bottom: 10px;
     line-height: 40px;
     letter-spacing: 1px;
     transition: all 500ms ease-out;
+    font-size: 17px;
 }
 .footer-almacenamiento{
     height: 270px;
@@ -1328,7 +1350,7 @@ input [type='submit']{
 }
 
 .body-transporte{
-    background: url(../img/img/camiones2-Mesaroli.jpg);
+    background: url(../img/camiones2-Mesaroli.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1410,7 +1432,7 @@ input [type='submit']{
 
 .certificacion h3{
     position: absolute;
-    top:2px;
+    top:4px;
     padding:30px;
     border-top: 2px solid;
     color: white;
@@ -1429,7 +1451,7 @@ input [type='submit']{
 
 .carousel, .carousel-inner > .carousel-item > img { /* Modificación tamaño carousel bootstrap */
     height: 608px;
-    width: 671px;
+    width: 669px;
     margin-top: -2px;
     margin-left: 7.5px;
   }
@@ -1453,10 +1475,17 @@ input [type='submit']{
     color:white;
     font-size: 20px;
 }
+
+.index-angles-up{
+    position:absolute;
+    top:194%;
+    z-index: 3;
+}
 .irAInicio .index-angles-up{
     position: absolute;
-    top:381%;
+    top:380%;
 }
+
 
 
     
