@@ -249,7 +249,7 @@ main p{
     width: 100vh;
     height: auto;
     margin-top: 119%;
-    margin-left: 22.9%;
+    margin-left: 22.8%;
     margin-bottom: 0;
     overflow: hidden;
 }
@@ -1186,7 +1186,7 @@ input [type='submit']{
     background-color: rgba(16, 5, 5, 0.359);
     position: absolute;
     z-index: 2;
-    top:59.7%;
+    top:60%;
     left:50%;
     box-shadow: 0 5px 10px #000;
 }
@@ -1272,8 +1272,8 @@ input [type='submit']{
     font-size: 17px;
 }
 .footer-almacenamiento{
-    height: 270px;
-    top:201%;
+    height: 280px;
+    top:203%;
 }
 .footer-almacenamiento h3{
     padding-left:3.8%;
@@ -1440,7 +1440,7 @@ input [type='submit']{
 
 .certificacion h3{
     position: absolute;
-    top:2px;
+    top:4px;
     padding:26px;
     border-top: 2px solid;
     color: white;
