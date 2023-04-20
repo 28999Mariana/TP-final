@@ -232,7 +232,7 @@ main p{
     color:white;
     position: absolute;
     top:289%;
-    left:25.4%;
+    left:26.7%;
     padding-top: 17px;
     padding-left: 30px;
     padding-right: 30px;
@@ -248,7 +248,7 @@ main p{
 .slider{
     width: 100vh;
     height: auto;
-    margin-top: 119%;
+    margin-top: 128%;
     margin-left: 22.8%;
     margin-bottom: 0;
     overflow: hidden;
@@ -374,19 +374,19 @@ main section p{
     text-align: center;
     letter-spacing: 1px;
     line-height: 27px;
-    backface-visibility: hidden;
 } 
-.card1 .back{
-    overflow: hidden;
-}   
+
 
 .card:hover .front{
     transform: perspective(300px)rotateY(180deg);
+    
 }
 .card:hover .back{
     transform:perspective(300px)rotateY(360deg);
+
 }
-    
+   
+
 .card2{
     top:7%;
     left: 35.5%;
@@ -402,7 +402,6 @@ main section p{
     box-shadow: 0 5px 10px #000;
     overflow: hidden;
     transition:.5s;
-    backface-visibility: hidden;
     text-align: center;
     letter-spacing: 1px;
     line-height: 27px;
@@ -422,7 +421,6 @@ main section p{
     box-shadow: 0 5px 10px #000;
     overflow: hidden;
     transition:.5s;
-    backface-visibility: hidden;
     text-align: center;
     letter-spacing: 1px;
     line-height: 27px;
@@ -1174,7 +1172,7 @@ input [type='submit']{
 .carousel, .carousel-inner > .carousel-item > img { /* Modificación tamaño carousel bootstrap */
     height: 608px;
     width: 669px;
-    margin-top: -2px;
+    
     margin-left: 7.5px;
   }
 
@@ -1186,7 +1184,7 @@ input [type='submit']{
     background-color: rgba(16, 5, 5, 0.359);
     position: absolute;
     z-index: 2;
-    top:63.5%;
+    top:59.8%;
     left:50%;
     box-shadow: 0 5px 10px #000;
 }
