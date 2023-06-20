@@ -7,7 +7,7 @@
     <title>Servicios</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../style/style.css">
 </head>
 <body class="body-servicios">
     <header><p id="inicio"></p>
@@ -15,7 +15,7 @@
             <a href="../index.html">Inicio</a>
             <a href="../pages/quienesSomos.html">Quienes Somos</a>
             <a href="../pages/servicios.html">Servicios</a>
-            <a href="../pages/trabajaConNosotros.html">Trabaja con Nosotros</a>
+            <a href="../pages/trabaja-con-nosotros.html">Trabaja con Nosotros</a>
             <a href="../pages/contacto.html">Contacto</a>
         </nav>
         <div data-aos="fade-right">
@@ -23,7 +23,7 @@
         </div>
         <div class="icons icons-servicios">
             <ul>
-                <li><a href="../pages/logísticaIntegral.html" class="fa-solid fa-warehouse"></i></a></li>
+                <li><a href="../pages/logisticaIntegral.html" class="fa-solid fa-warehouse"></i></a></li>
                 <li><a href="../pages/transporte.html" class="fa-solid fa-truck-front"></i></a></li>
                 <li><a href="../pages/almacenamiento.html" class="fa-solid fa-dolly"></i></a></li>
                 <li><a href="../pages/pickingYrepacking.html" class="fa-solid fa-boxes-packing"></i></a></li>
@@ -32,9 +32,9 @@
 
     </header>
 
-    <div class="scroll-servicios">
-    <div class="hero"data-aos="zoom-in">
-		<h4>Servicios</h4>
+    <div class="scroll-servicios hero">
+        <div data-aos="zoom-in">
+		<h4 class="h4-servicios">Servicios</h4>
 	</div>
 	<div class="container">
 		<div class="evento">
@@ -62,6 +62,18 @@
 			<h3 class="fecha">Picking y Repacking</h3>
 		</div>
 	</div>
+    
+    <h4 class="h4-flota">Nuestra Flota</h4>
+    <div class="content-servicios">
+    <div class="slider2">
+        <span style="--i:1;"><h5>Scania G450 A4x2</h5><img src="../img/scania1.png"alt="Scania"></span>
+        <span style="--i:2;"><h5>Scania XF 105</h5><img src="../img/scania2.png" alt="Scania"></span>
+        <span style="--i:3;"><h5>Scania 2730/48</h5><img src="../img/scania3.png" alt="Scania"></span>
+        <span style="--i:4;"><h5>Mercedes R460 A 6x4</h5><img src="../img/mercedes.png" alt="Mercedes"></span>
+        <span style="--i:5;"><h5>Mercedes R501</h5><img src="../img/mercedes2.png" alt="Mercedes"></span>
+        <span style="--i:6;"><h5>Mercedes R460</h5><img src="../img/mercedes3.png" alt="Mercedes"></span>
+    </div>
+    </div>
 
     <div class="contenedor-servicios">
         <div class="bloque1" data-aos="flip-right" >
@@ -79,20 +91,6 @@
             <i class="fa-solid fa-phone-volume"></i>
 
         </div>
-    </div>
-
-    <h2 class="h2-flota">Nuestra Flota</h2>
-
-
-    <div class="content-servicios">
-    <div class="slider2">
-        <span style="--i:1;"><h5>Scania G450 A4x2</h5><img src="../img/scania1.png"alt="Scania"></span>
-        <span style="--i:2;"><h5>Scania XF 105</h5><img src="../img/scania2.png" alt="Scania"></span>
-        <span style="--i:3;"><h5>Scania 2730/48</h5><img src="../img/scania3.png" alt="Scania"></span>
-        <span style="--i:4;"><h5>Mercedes R460 A 6x4</h5><img src="../img/mercedes.png" alt="Mercedes"></span>
-        <span style="--i:5;"><h5>Mercedes R501</h5><img src="../img/mercedes2.png" alt="Mercedes"></span>
-        <span style="--i:6;"><h5>Mercedes R460</h5><img src="../img/mercedes3.png" alt="Mercedes"></span>
-    </div>
     </div>
     <div class="irAInicio index-angles-up">
         <p><a href="#inicio"><i class="fa-sharp fa-solid fa-angles-up"></i></a></p>
@@ -126,6 +124,6 @@
 			once: true
 		});
 	</script> 
-<script src="https://kit.fontawesome.com/bf3d5cf39c.js" crossorigin="anonymous"></script>    
+    <script src="https://kit.fontawesome.com/bf3d5cf39c.js" crossorigin="anonymous"></script>    
 </body>
 </html>
